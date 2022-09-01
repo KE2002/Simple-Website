@@ -24,6 +24,8 @@ body {
   -webkit-transform-style: preserve-3d;
 }
 .parallax {
+  width: 100vw;
+  height: 100vh;
   position: relative;
   transform-style: preserve-3d;
 }
@@ -175,6 +177,4 @@ nav .menu {
   position: absolute;
   flex-direction: row;
   gap: 20px;
-}
-.section2-content {
 }
